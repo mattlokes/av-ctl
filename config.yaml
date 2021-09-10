@@ -1,0 +1,26 @@
+devices:
+   - name  : matrix2x4
+     type  : matrix
+     model : ezmx42hs 
+     serial:
+       port    : /dev/ttyUSB0
+       baudrate: 57600
+       timeout : 0.1
+     inputs:
+       1:
+         name  : Apple TV
+         scalar: BYPASS
+       2:
+         name  : PS5
+         scalar: BYPASS
+       3:
+       4:
+     outputs:
+       1:
+         name  : TV
+         edid  : EDID_BYPASS
+       2:
+         name  : Matt's Monitor
+         edid  : 1080P_2CH_HDR
+
+  
